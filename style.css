@@ -1,0 +1,134 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+
+  body {
+    font-family: Poppins;
+  }
+
+  .works {
+    display: grid;
+    max-width: 80%;
+    margin: 0 auto;
+    background-color: #f6f7fb;
+  }
+
+  .card {
+    display: flex;
+    background-color: #FFFFFF;
+    flex-direction: column;
+    flex-wrap: wrap;
+    padding: 16px;
+    align-items: center;
+    gap: 12px;
+    border: 1px solid #DFE1E6;
+    border-radius: 16px;
+
+  }
+
+  .snapshoot, img {
+    width: 100%;
+  }
+
+  .Left {
+    display: grid;
+    gap: 12px;  
+  }
+    .Title
+  {
+    font-size: 32px;
+    font-weight: 700;
+    font-style: normal;
+    line-height: 44px;
+    color: #172B4D
+  }
+
+  .Frame {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    font-size: 13px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 16px;
+  }
+
+  .canopy {
+    color: #344563;
+    font-size: 13px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 16px;
+  }
+
+  .Text {
+    color: #7A869A;
+  }
+
+  .Primary {
+    color: #344563;
+    font-size: 15px;
+    font-weight: 400;
+    font-style: normal;
+    line-height: 24px;
+  }
+
+
+  .counter {
+    background-color: #C1C7D0;
+    border-radius: 50%;
+    width: 8px;
+    height: 8px;
+  }
+  .Tag >ul {
+    display: flex;
+    list-style: none;
+    gap: 8px;
+    align-items: center;
+  }
+
+  .T {
+    background-color: #EBEBFF;
+    font-size: 12px;
+    color: #6070FF;
+    line-height: 16px;
+    padding: 4px 12px;
+    border-radius: 8px;
+  }
+
+  .Action {
+    display: flex;
+    padding: 12px 169px 12px 0px;
+    align-items: center;
+  }
+
+  .See-project {
+    color: #396DF2;
+    text-align: center;
+    border: 1px solid #6070FF;
+    padding: 12px;
+    border-radius: 8px;
+    background-color: #FFFFFF;
+    font-size: 17px;
+    font-weight: 500;
+    font-style: normal;
+    line-height: 24px;
+    letter-spacing: 0.15px;
+  }
+ 
+  /* Mobile Styles */
+  @media only screen and (min-width:375px) {
+     body {
+      /* background-color: green */
+    
+    }
+  }
+ 
+  /* Desktop Styles */
+  @media only screen and (min-width: 768px) {
+    body {
+     /* background-color: #B2D6FF;  Blue */
+    }
+  }
