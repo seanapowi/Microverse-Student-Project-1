@@ -37,13 +37,23 @@
     display: grid;
     gap: 12px;  
   }
+
+  .Project
+  {
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    height: auto;
+  } 
+
     .Title
   {
-    font-size: 32px;
+    font-size: 35px;
     font-weight: 700;
     font-style: normal;
     line-height: 44px;
     color: #172B4D
+    
   }
 
   .Frame {
