@@ -134,7 +134,7 @@
   /* Mobile Styles */
   @media only screen and (min-width:375px) {
      body {
-      /* background-color: green */
+      background-color: silver;
     
     }
   }
@@ -142,6 +142,6 @@
   /* Desktop Styles */
   @media only screen and (min-width: 768px) {
     body {
-     /* background-color: #B2D6FF;  Blue */
+     background-color: #5f6161;
     }
   }
