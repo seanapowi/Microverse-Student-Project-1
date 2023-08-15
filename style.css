@@ -131,41 +131,24 @@
     letter-spacing: 0.15px;
   }
  
-  /* Mobile Styles */
-  @media only screen and (min-width:375px) {
-     body {
-      background-color: silver;
-    
-    }
-  }
- 
-  /* Desktop Styles */
-  @media only screen and (min-width: 768px) {
-    body {
-     background-color: #5f6161;
-    }
-  }
-
+  
   /* About my self section - top*/
 
-  .About {
-    background-color: #FFFFFF;
-    display: inline-flex;
-    flex-direction: column;
-    padding: 114px 24px;
-    align-items: center;
-    gap: 24px;
+  .about {
     border-radius: 0 60px 0 0;
+    border-style: none;
   }
 
   .top {
     display: flex;
+    flex-wrap: wrap;
     flex-direction: column;
     align-items: flex-start;
     gap: 12px;
   }
 
   .about-title {
+    display: flex;
     font-size: 40px;
     font-weight: 700;
     line-height: 52px;
@@ -173,12 +156,24 @@
     color: #172B4D;
   }
 
-  .about-text >p {
+  .about-me {
+    display: flex;
     font-size: 16px;
     color: #344563;
     font-weight: 400;
     font-style: normal;
     line-height: 24px;
+    width: 100%;
+    flex-wrap: wrap;
+    flex: 1 1 auto;
+  }
+
+  p {
+    display: flex;
+    flex-wrap: wrap;
+    width: 327px;
+    height: 147px;
+    
   }
 
   .social {
@@ -248,10 +243,10 @@
 
 .bottom {
   display: flex;
+  flex-wrap: wrap;
   flex-direction: column;
   align-items: flex-start;
-  width: 327px;
-  height: auto;
+  width: 100%;
 }
 
 .language >img {
@@ -317,3 +312,18 @@
 .lower-border {
   border-bottom: 1px solid #DFE1E6;
 }
+
+/* Mobile Styles */
+  @media only screen and (min-width:375px) {
+     body {
+      background-color: silver;
+    
+    }
+  }
+ 
+  /* Desktop Styles */
+  @media only screen and (min-width: 768px) {
+    body {
+     background-color: #5f6161;
+    }
+  }
