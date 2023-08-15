@@ -145,3 +145,175 @@
      background-color: #5f6161;
     }
   }
+
+  /* About my self section - top*/
+
+  .About {
+    background-color: #FFFFFF;
+    display: inline-flex;
+    flex-direction: column;
+    padding: 114px 24px;
+    align-items: center;
+    gap: 24px;
+    border-radius: 0 60px 0 0;
+  }
+
+  .top {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 12px;
+  }
+
+  .about-title {
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 52px;
+    font-style: normal;
+    color: #172B4D;
+  }
+
+  .about-text >p {
+    font-size: 16px;
+    color: #344563;
+    font-weight: 400;
+    font-style: normal;
+    line-height: 24px;
+  }
+
+  .social {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+    align-items: flex-start;
+  }
+
+  .connect {
+    color: #7F8CFF;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 24px;
+  }
+
+  .icon {
+    display: flex;
+    gap: 16px;
+  }
+
+  
+  .Github {
+    width: 18px;
+    height: 20px;
+    flex-shrink: 0;
+  }
+
+  .Linkedin {
+   width: 20px;
+   height: 20px;
+  flex-shrink: 0;
+}
+
+.Angelist {
+  width: 20px;
+  height: 20px;
+ flex-shrink: 0;
+}
+
+.Twitter {
+  width: 20px;
+  height: 20px;
+ flex-shrink: 0;
+}
+
+.Medium {
+  width: 24px;
+  height: 24px;
+ flex-shrink: 0;
+}
+
+.resume {
+  color: #396DF2;
+  background-color: #FFFFFF;
+  font-size: 17px;
+  font-weight: 500;
+  line-height: 24px;
+  letter-spacing: 0.15px;
+  padding: 12px;
+  border-radius: 8px;
+  border: 1px solid #396DF2;
+}
+
+/* About myself - bottom */
+
+.bottom {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  width: 327px;
+  height: auto;
+}
+
+.language >img {
+  width: 48px;
+  height: 48px;
+}
+
+.languages {
+  display: flex;  
+  gap: 12px;
+  padding: 16px 26px 16px 8px;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.javascript,
+.framework,
+.skills {
+  width: 237px;
+  height: 24px;
+  color: #000000;
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 24px;
+}
+
+.fa {
+  color: #5E6C84;
+}
+
+.List {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 12px;
+  gap: 12px;
+  width: 100%;
+}
+
+.language {
+  display: flex;
+  justify-content: center;
+  background: #F7F7F9;
+  width: 303px;
+  padding: 9px 12px 9.716px 12px;
+  align-items: center;
+  gap: 16px;
+  border-radius: 8px;
+}
+
+.language-text {
+  display: flex;
+  width: 215px;
+  height: 24px;
+  flex-shrink: 0;
+  font-size: 15px;
+  font-weight: 500;
+  color: #253858;
+  line-height: 20px;
+  font-style: normal;
+}
+
+.lower-border {
+  border-bottom: 1px solid #DFE1E6;
+}
