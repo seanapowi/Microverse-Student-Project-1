@@ -132,12 +132,13 @@
   }
  
   
-  /* About my self section - top*/
+  /* About my self section - top */
 
   .about {
     border-radius: 0 60px 0 0;
     border-style: none;
-  }
+    background-color: #FFFFFF; 
+  } 
 
   .top {
     display: flex;
