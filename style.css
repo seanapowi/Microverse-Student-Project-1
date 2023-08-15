@@ -281,10 +281,10 @@
 .List {
   display: flex;
   flex-direction: column;
+  flex-wrap: wrap;
   align-items: center;
   padding: 12px;
   gap: 12px;
-  width: 100%;
 }
 
 .language {
