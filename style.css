@@ -24,7 +24,6 @@
     width: 386px;
     height: 48px;
     padding: 4px 24px 4px 12px;
-    gap: 160px;
     margin-bottom: 0;
     background-color: #FFFFFF;
   }
@@ -49,7 +48,7 @@
     line-height: 20px;
     text-align: center;
     font-style: normal;
-    padding: 10px 12px  ;
+    padding: 10px 12px;
   }
 
   .menu-container {
@@ -123,7 +122,7 @@
     font-weight: 700;
     font-style: normal;
     line-height: 44px;
-    color: #172B4D
+    color: #172B4D;
     
   }
 
@@ -164,6 +163,7 @@
     width: 8px;
     height: 8px;
   }
+  
   .Tag >ul {
     display: flex;
     list-style: none;
@@ -446,7 +446,7 @@ margin-bottom: 0;
 .get-in-touch {
   padding-left: 22px;
   width: auto;
-  margin-top: -30px;
+  
 }
 
 .line {
@@ -459,11 +459,6 @@ margin-bottom: 0;
   background-color: #0D151E;
 }
 
-
-.works-bottom {
-
-  margin-bottom: 50px;
-}
 /* Mobile Styles */
   @media only screen and (min-width:375px) {
      body {
