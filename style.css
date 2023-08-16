@@ -8,6 +8,77 @@
     font-family: Poppins;
   }
 
+  .header-section {
+    display: flex;
+    flex-direction: column;
+    background-color: #f6f7fb;
+    width: 80%;
+    margin: 0 auto;
+  }
+
+    .header {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    margin: 0 auto;
+    width: 386px;
+    height: 48px;
+    padding: 4px 24px 4px 12px;
+    gap: 160px;
+    margin-bottom: 0;
+    background-color: #FFFFFF;
+  }
+
+  .header-bottom {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    max-width: 80%;
+    height: auto;
+    gap: 12px;
+    border-radius: 0 0 0 60px;
+    background-color: #FFFFFF;
+    margin-bottom: 114px;
+    padding-top: 20px;
+  }
+
+  .Logo {
+    color: #6070FF;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 20px;
+    text-align: center;
+    font-style: normal;
+    padding: 10px 12px  ;
+  }
+
+  .menu-container {
+    display: flex;
+    flex-direction: column;
+    padding: 8px;
+  }
+  .menu-item {
+    width: 45px;
+    height: 6px;
+    background-color: #6070FF;
+    margin: 2px;
+    border-radius: 6px 6px;
+  }
+
+  
+
+  .header-title {
+    display: flex;
+    font-size: 40px;
+    width: 310px;
+    font-weight: 700;
+    line-height: 52px;
+    font-style: normal;
+    color: #172B4D;
+  }
+
+  /* Works section */
+
   .works {
     display: grid;
     max-width: 80%;
