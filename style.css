@@ -244,7 +244,8 @@
     display: flex;
     flex-wrap: wrap;
     width: 327px;
-    height: 147px;
+    /* height: 147px; */
+    /* Do not use height instead use padding or margin maintain the size */
     
   }
 
