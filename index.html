@@ -347,12 +347,13 @@
                          </div>   
                      </div>
                      
-                     <form>
+                     <form id="contactForm" action="https://formspree.io/f/xnqkdkel" method="post">
                         
-                        <input type="text" name="name" placeholder="Your Name"/>
-                         <input type="text" name="email" placeholder="Your Email" />
-                         <textarea name="contact-message">Write your message here...</textarea>
+                        <input type="text" name="name" placeholder="Your Name" maxlength="30" required/>
+                         <input type="email" name="_replyto" placeholder="Your Email" required />
+                         <textarea name="contact-message" maxlength="500" placeholder="Write your message here..."></textarea>
                          <a href="#"><input class="btn get-in-touch" type="submit" name="submit" value="Get in Touch"></a>
+                         <input type="hidden" name="_next" value="https://seanapowi.github.io/Microverse-Student-Project-1/">
 
                          <div class="hr-line"></div>
                     
