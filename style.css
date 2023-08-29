@@ -460,6 +460,114 @@ margin-bottom: 0;
   background-color: #0D151E;
 }
 
+ /* Contact me */
+
+ .contact-top {
+  display: flex;
+  text-align: center;
+  justify-content: center;
+  width: auto;
+  padding-top: 80px;
+ }
+
+ .contact-title {
+  display: flex;
+  font-size: 40px;
+  font-weight: 700;
+  line-height: 52px;
+  padding-left: 15%;
+ }
+
+ .contact {
+  background-image: url(/images/header-background-mobile.svg);
+  background: #6070FF;  
+  color: #FFF;
+  border-radius: 60px 0 0 0;
+ }
+
+ form {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  width: 90%;
+  flex-shrink: 0;
+  justify-content: center;
+
+ }
+
+ input {
+  border-radius: 8px;
+  height: 48px;
+  border: 1px solid#CFD8DC;
+  padding: 15px 38px 15px 16px;
+ }
+
+ textarea {
+  height: 140px;
+  padding: 15px 38px 15px 16px;
+  color: #B3BAC5;
+  font-size: 15px;
+  border-radius: 8px;
+  border: 1px solid#CFD8DC;
+ }
+
+ .get-in-touch {
+  width:  48%;
+  font-size: 17px;
+  font-weight: 500;
+  line-height: 24px;
+  text-align: center;
+  color: #6070FF;
+  padding: 12px 15px 15px 12px;
+  letter-spacing: 0.51px;
+ }
+
+ .hr-line {
+  height: 5px;
+  width: 50%;
+  background-color: #000000;
+  margin: 0 auto;
+  margin-top: 20px;
+  margin-bottom: 2px;
+  border-radius: 8px;
+ }
+
+
+ /* Buttons */
+
+ a {
+  text-decoration:  none;
+ }
+ .btn {
+
+  cursor: pointer;
+
+ }
+
+.btn:enabled {
+  border-radius: 8px;
+  border: 1px solid var(--theme-1-primary-colors-3, #7F8CFF);
+  background: var(--theme-1-neutrals-11, #FFF);
+}
+
+.btn:hover {
+border-radius: 8px;
+background: var(--theme-1-primary-colors-2, #6070FF);
+box-shadow: 0px 8px 16px 0px rgba(64, 83, 252, 0.24);
+color: #fff;
+}
+
+.btn:active {
+  border-radius: 8px;
+  background: var(--theme-1-primary-colors-1, #2230D2);
+}
+
+
+.btn:disabled {
+  border-radius: 8px;
+  border: 1px solid var(--theme-1-neutrals-7, #C1C7D0);
+}
+
 /* Mobile Styles */
   @media only screen and (min-width:375px) {
      body {
@@ -474,3 +582,7 @@ margin-bottom: 0;
      background-color: #5f6161;
     }
   }
+
+
+ 
+
